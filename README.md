@@ -96,6 +96,15 @@ A blockchain-based voting system where an admin registers candidates, randomly s
 - Full event logging: `VoteCast`, `JurySelected`, `VotingStarted/Ended`
 
 ---
+### 📚Bibliothèque
+> PHP & MySQL library management system
+
+Full-stack web app built with PHP and MySQL featuring a public catalogue, member authentication, borrowing & reservation system, and a complete admin dashboard with reporting and email notifications.
+
+`PHP` `MySQL` `CRUD` `Authentication` `Admin Dashboard`
+
+---
+
 
 ## 🎓 Academic Background
 
