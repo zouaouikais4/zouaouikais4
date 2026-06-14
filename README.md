@@ -1,16 +1,119 @@
-## Hi there 👋
+# Hi there, I'm Kais 👋
 
-<!--
-**zouaouikais4/zouaouikais4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a **GLSI2 student** passionate about building real-world solutions — from AI-powered web apps to embedded systems. I love bridging the gap between hardware and software, and I'm always tinkering with something new.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🧰 Tech Stack
+
+**Languages**
+`Python` `JavaScript` `Java` `Solidity` `C` `SQL`
+
+**Frontend**
+`React` `Vite` `Thymeleaf` `HTML/CSS`
+
+**Backend**
+`Flask` `Node.js` `Express` `Spring Boot`
+
+**ML / AI**
+`scikit-learn` `XGBoost` `pandas` `NumPy`
+
+**Databases**
+`SQLite` `PostgreSQL` `MySQL`
+
+**Embedded Systems**
+`Arduino` `MFRC522 (RFID)`
+
+**Blockchain**
+`Ethereum` `Hardhat` `ethers.js` `Solidity`
+
+**DevOps & Tools**
+`Git` `GitHub Actions` `Railway` `Docker` `Maven` `JWT` `REST APIs`
+
+---
+
+## 🚀 Featured Projects
+
+### 🛡️ [PhishGuard](https://github.com/zouaouikais4/phishguard)
+> AI-powered phishing URL detection tool
+
+A full-stack cybersecurity tool that classifies URLs as phishing or legitimate using a trained **XGBoost** model. Integrates **VirusTotal v3** and **Google Safe Browsing APIs** for enriched threat intelligence.
+
+- Built with **Python / Flask** backend + vanilla JS frontend
+- Trained on the **LegitPhish 2025** dataset with 30+ feature extractors
+- CI/CD via **GitHub Actions**, deployed on **Railway**
+- Includes a `/health` endpoint, backend URL sanitization, and a full **pytest** suite (30+ tests with mocked APIs)
+
+---
+
+### 📋 RFID Attendance Management System
+> Hardware-meets-web attendance tracking
+
+An end-to-end attendance system using **Arduino Uno + MFRC522** for card scanning, with a **Flask + SQLite** backend and a **React/Vite** frontend.
+
+- JWT-based authentication
+- Per-student history modals, class/group filtering
+- Unknown card alerts
+- Excel export for attendance reports
+
+---
+
+### 🗂️ File-Sharing Platform
+> Cloud-based file distribution with payments
+
+A **Node.js / Express + React** platform supporting **Cloudinary** ZIP uploads, download-via-redirect, **Stripe** payments, and a blockchain service integration.
+
+- PostgreSQL database
+- Multer for file handling
+- Secure download flows
+
+---
+
+
+### 🛒 Online Store
+> Spring Boot inventory & order management app
+
+A full-stack web application for managing product inventory and processing orders, built with a layered **Spring MVC + JPA** architecture.
+
+- **Spring Boot 4** backend with Spring Data JPA and Bean Validation
+- **Thymeleaf** templating for a responsive admin dashboard
+- **MySQL** database with duplicate product code enforcement at both service and DB level
+- Product image management with placeholder fallback, payment/order form
+
+---
+
+### 🗳️ VoteChain
+> Decentralized jury voting on Ethereum
+
+A blockchain-based voting system where an admin registers candidates, randomly selects 3 jury members via an on-chain **Fisher-Yates shuffle**, and manages the voting lifecycle entirely through a smart contract.
+
+- **Solidity** smart contract deployed on a local Hardhat node
+- Jury members each receive 10 votes to distribute freely among candidates
+- Pure **HTML/JS + ethers.js v6** frontend — no build step required
+- Full event logging: `VoteCast`, `JurySelected`, `VotingStarted/Ended`
+
+---
+
+## 🎓 Academic Background
+
+- Studying **GLSI** (Software Engineering & Information Systems)
+
+---
+
+## 📊 GitHub Stats
+
+![Kais's GitHub stats](https://github-readme-stats.vercel.app/api?username=zouaouikais4&show_icons=true&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zouaouikais4&layout=compact&theme=tokyonight&hide_border=true)
+
+---
+
+## 📫 Let's Connect
+
+- 🐙 GitHub: [@zouaouikais4](https://github.com/zouaouikais4)
+- 💼 LinkedIn: [Kais Zouaoui](https://www.linkedin.com/in/kais-zouaoui-232337235/)
+- 📧 Email: [zouaouikais4@gmail.com](mailto:zouaouikais4@gmail.com)
+- 📍 Menzel Bourguiba, Bizerte, Tunisia
+
+---
+
+*"Build things. Break things. Learn. Repeat."*
