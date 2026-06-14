@@ -7,7 +7,9 @@ I'm a **GLSI2 student** passionate about building real-world solutions — from 
 ## 🧰 Tech Stack
 
 **Languages**
-`Python` `JavaScript` `Java` `Solidity` `C` `SQL`
+`Python` `JavaScript` `Java` `Solidity` `C` `SQL` `PHP`  `CSS` 
+
+
 
 **Frontend**
 `React` `Vite` `Thymeleaf` `HTML/CSS`
@@ -19,7 +21,8 @@ I'm a **GLSI2 student** passionate about building real-world solutions — from 
 `scikit-learn` `XGBoost` `pandas` `NumPy`
 
 **Databases**
-`SQLite` `PostgreSQL` `MySQL`
+`SQLite` `PostgreSQL` `MySQL` `MongoDB` 
+
 
 **Embedded Systems**
 `Arduino` `MFRC522 (RFID)`
