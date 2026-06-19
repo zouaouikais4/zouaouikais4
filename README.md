@@ -105,6 +105,18 @@ Full-stack web app built with PHP and MySQL featuring a public catalogue, member
 
 ---
 
+### 🎓 [ProjetManager — Fil Rouge GLSI2](https://github.com/zouaouikais4/projetmanager)
+> Collaborative project management platform with real-time chat
+
+Full-stack capstone project (FastAPI + React) built across 3 Scrum sprints, letting students manage projects, assign Kanban tasks, invite teammates, and chat in real time — with teacher supervision and grading built in.
+
+- **FastAPI + SQLAlchemy** backend with JWT auth (bcrypt-hashed passwords, sessionStorage tokens)
+- Drag-and-drop **Kanban board** (To Do / In Progress / Done) with priorities, due dates, and comments
+- **WebSocket** group chat per project: typing indicators, read receipts, file attachments, auto-reconnect, toast notifications
+- Email-based invitation system with token expiry
+- Teacher dashboard for cross-project supervision and graded feedback (0–20)
+
+---
 
 ## 🎓 Academic Background
 
