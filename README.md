@@ -1,7 +1,8 @@
 # Hi there, I'm Kais 👋
 
-I'm a **GLSI2 student** passionate about building real-world solutions — from AI-powered web apps to embedded systems. I love bridging the gap between hardware and software, and I'm always tinkering with something new.
+I'm a Software Engineering & Information Systems (GLSI) student passionate about building real-world solutions, from AI-powered web applications to embedded systems. I enjoy bridging the gap between hardware and software, creating projects that combine practical engineering with modern technologies.
 
+I'm always exploring new tools, learning new technologies, and building projects that solve real problems.
 ---
 
 ## 🧰 Tech Stack
