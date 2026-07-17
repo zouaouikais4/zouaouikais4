@@ -114,10 +114,10 @@ Full-stack capstone project (FastAPI + React) built across 3 Scrum sprints, lett
 
 ---
 
-### 🏢 CRM Edu
-> Full-stack CRM platform with AI-powered insights and role-based access control
+### 🏢 CRM Edu — Summer Internship Project
+> Full-stack CRM platform with AI-powered insights, built during my summer internship
 
-An enterprise-style CRM for managing clients, prospects, subscriptions, opportunities, invoices, and tasks across three educational product lines. Combines a Spring Boot backend, an Angular frontend, and a dedicated Python AI microservice — all containerized and orchestrated with Docker Compose.
+An enterprise-style CRM developed during my summer internship, for managing clients, prospects, subscriptions, opportunities, invoices, and tasks across three educational product lines. Combines a Spring Boot backend, an Angular frontend, and a dedicated Python AI microservice — all containerized and orchestrated with Docker Compose.
 
 - **Spring Boot 4 + Angular 21** full stack with JWT authentication and strict **Role-Based Access Control** (Admin / Commercial / Support), enforced at both the API and UI layers with ownership-level checks (e.g. commercial agents only edit their own leads/tasks)
 - **AI microservice** (Python/FastAPI + scikit-learn) for lead scoring, churn prediction, and product recommendation — falls back to a documented heuristic when no trained model exists yet
@@ -129,10 +129,10 @@ An enterprise-style CRM for managing clients, prospects, subscriptions, opportun
 `Spring Boot` `Angular` `TypeScript` `Java` `Python` `FastAPI` `scikit-learn` `MySQL` `Docker` `JWT` `RBAC` `Power BI`
 
 ---
-
 ## 🎓 Academic Background
 
 - Studying **GLSI** (Software Engineering & Information Systems)
+- Summer internship focused on full-stack CRM development with AI integration
 
 ---
 
