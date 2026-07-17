@@ -5,24 +5,20 @@ I'm a **GLSI2 student** passionate about building real-world solutions — from 
 ---
 
 ## 🧰 Tech Stack
-
 **Languages**
-`Python` `JavaScript` `Java` `Solidity` `C` `SQL` `PHP`  `CSS` 
-
-
+`Python` `JavaScript` `TypeScript` `Java` `Solidity` `C` `SQL` `PHP` `CSS`
 
 **Frontend**
-`React` `Vite` `Thymeleaf` `HTML/CSS`
+`React` `Angular` `Vite` `Thymeleaf` `HTML/CSS`
 
 **Backend**
-`Flask` `Node.js` `Express` `Spring Boot`
+`Flask` `FastAPI` `Node.js` `Express` `Spring Boot`
 
 **ML / AI**
 `scikit-learn` `XGBoost` `pandas` `NumPy`
 
 **Databases**
-`SQLite` `PostgreSQL` `MySQL` `MongoDB` 
-
+`SQLite` `PostgreSQL` `MySQL` `MongoDB`
 
 **Embedded Systems**
 `Arduino` `MFRC522 (RFID)`
@@ -115,6 +111,22 @@ Full-stack capstone project (FastAPI + React) built across 3 Scrum sprints, lett
 - **WebSocket** group chat per project: typing indicators, read receipts, file attachments, auto-reconnect, toast notifications
 - Email-based invitation system with token expiry
 - Teacher dashboard for cross-project supervision and graded feedback (0–20)
+
+---
+
+### 🏢 CRM Edu
+> Full-stack CRM platform with AI-powered insights and role-based access control
+
+An enterprise-style CRM for managing clients, prospects, subscriptions, opportunities, invoices, and tasks across three educational product lines. Combines a Spring Boot backend, an Angular frontend, and a dedicated Python AI microservice — all containerized and orchestrated with Docker Compose.
+
+- **Spring Boot 4 + Angular 21** full stack with JWT authentication and strict **Role-Based Access Control** (Admin / Commercial / Support), enforced at both the API and UI layers with ownership-level checks (e.g. commercial agents only edit their own leads/tasks)
+- **AI microservice** (Python/FastAPI + scikit-learn) for lead scoring, churn prediction, and product recommendation — falls back to a documented heuristic when no trained model exists yet
+- **Social media data pipeline**: signature-verified Meta Lead Ads / WhatsApp webhooks normalize real acquisition data (channel, engagement, response time) directly into the CRM for smarter lead scoring
+- **Interactive Kanban pipeline** for opportunities (7 stages, drag-and-drop) built with Angular signals and `@angular/cdk`
+- **Live dashboard** with real-time KPIs, plus Power BI integration via direct MySQL views and DAX measures for executive reporting
+- Fully containerized with **Docker Compose** (MySQL, Spring Boot, FastAPI, Angular/Nginx) for one-command local deployment
+
+`Spring Boot` `Angular` `TypeScript` `Java` `Python` `FastAPI` `scikit-learn` `MySQL` `Docker` `JWT` `RBAC` `Power BI`
 
 ---
 
